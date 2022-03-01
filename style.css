@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/* CSS Document */
+h1 {
+	text-align: center;
+	color: White;
+	background-color: slategray;
+}
+
+img {
+	display: block;
+ 	margin-left: auto;
+ 	margin-right: auto;
+}
+
+
+.choices {
+	grid-column: 1 / -1;
+	font-size: 48px;
+}
+
+.choices ul {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 300px;
+	margin-right: 300px;
+	list-style-type: none;
+}
+
+.choices2 {
+	font-size: 48px;
+}
+
+.choices2 ul {
+	display: flex;
+	justify-content: center;
+	margin-left: 300px;
+	margin-right: 300px;
+	list-style-type: none;
+}
+
+.direction {
+	grid-column: 1 / -1;
+	font-size: 48px;
+}
+
+.direction ul {
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+}
+
+	
+		
+	
